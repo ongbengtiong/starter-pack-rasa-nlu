@@ -60,7 +60,7 @@ This will start the server using port 5000. To get the results of the model, you
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
 
 - Enrich the `data/nlu_data.md` file with the intents you would like your bot to understand. Retrain the NLU model using the command above and see you assistant improving with every run!
-- If you need more inspiration we have a really cool [training data file](https://forum.rasa.com/t/rasa-starter-pack/704) which you can find on Rasa Community Forum. This dataset contains quite a few interesting intents and you can use to build a fun chatbot capable of handling small talk. To use it, append the examples for this dataset to `data/nlu_data.md` file, retrain the NLU model and see how your bot learns new skills.
+- If you need more inspiration we have a really cool [training data file](https://forum.rasa.com/t/rasa-starter-pack/704) which you can find on Rasa Community Forum. This dataset contains quite a few interesting intents and you can use it to build a fun assistant capable of handling small talk. To use it, append the examples for this dataset to `data/nlu_data.md` file, retrain the NLU model and see how your bot learns new skills.
 
 
 Make sure to let us know how you are getting on and what have you built. Visit [Rasa Community Forum](https://forum.rasa.com) and share your experience.
