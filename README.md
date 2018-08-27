@@ -42,19 +42,14 @@ pipeline:
 ```	
 
 ## How to use it?
-Even though this starter-pack have only five and quite generic intents, you can train the Rasa NLU model by running:
-
-```make train-nlu```
-
+Even though this starter-pack have only five and quite generic intents, you can train the Rasa NLU model by running:  
+```make train-nlu```  
 This will train the NLU model and store it inside the `/models/current/nlu` folder of your project directory.
 
-To test the model, you can run it as a server using the following command:
-
-```make run-nlu```
-
-This will start the server using port 5000. To get the results of the model, you can pass an input message by making a request:
-
-```curl 'localhost:5000/parse?q=Hello&project=current'```
+To test the model, you can run it as a server using the following command:  
+```make run-nlu```  
+This will start the server using port 5000. To get the results of the model, you can pass an input message by making a request:  
+```curl 'localhost:5000/parse?q=Hello&project=current'```  
 
 ## What's next?
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
