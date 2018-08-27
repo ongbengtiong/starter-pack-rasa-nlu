@@ -46,9 +46,10 @@ Even though this starter-pack have only five and quite generic intents, you can 
 ```make train-nlu```  
 This will train the NLU model and store it inside the `/models/current/nlu` folder of your project directory.
 
-To test the model, you can run it as a server using the following command:  
+To test the model, you can run it as a server using the following command which will start the server using port 5000:  
 ```make run-nlu```  
-This will start the server using port 5000. To get the results of the model, you can pass an input message by making a request:  
+
+To get the results of the model, you can pass an input message by making a request:  
 ```curl 'localhost:5000/parse?q=Hello&project=current'```  
 
 ## What's next?
