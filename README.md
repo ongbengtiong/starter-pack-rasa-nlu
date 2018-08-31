@@ -52,7 +52,7 @@ To test the model, you can run it as a server using the following command which 
 ```make run-nlu```  
 
 To get the results of the model, you can pass an input message by making a request:  
-```curl 'localhost:5000/parse?q="Hello"&project=current'```  
+```curl 'localhost:5000/parse?q=Hello&project=current'```  
 
 ## What's next?
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
