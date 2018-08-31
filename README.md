@@ -1,6 +1,6 @@
 # Rasa NLU starter-pack
 
-Looked through the [Rasa NLU documentation](http://rasa.com/docs/nlu/) and ready to build your first intelligent assistant? We have some resources to help you get started! This repository contains the foundations of your first custom assistant.  You can improve this assistant by using a really cool training data file which you can find on the [Rasa Community Forum](https://forum.rasa.com/t/rasa-starter-pack/704). Go get it before getting started!  
+Looked through the [Rasa NLU documentation](http://rasa.com/docs/nlu/) and ready to build your first intelligent assistant? We have some resources to help you get started! This repository contains the foundations of your first custom assistant.  You can improve this assistant by using a really cool training data set which you can find on the [Rasa Community Forum](https://forum.rasa.com/t/rasa-starter-pack/704). Go get it before getting started!  
 
 The initial version of this starter-pack lets you build a basic Rasa NLU model capable of understanding few simple intents. Clone this repo to get started:
 
