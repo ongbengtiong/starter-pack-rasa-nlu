@@ -5,7 +5,7 @@ Looked through the [Rasa NLU documentation](http://rasa.com/docs/nlu/) and ready
 The initial version of this starter-pack lets you build a basic Rasa NLU model capable of understanding few simple intents. 
 
 <p align="center">
-  <img src="./nlu_video.gif" height="300" width="570">
+  <img src="./nlu_video.gif" height="320" width="570">
 </p>
 
 
