@@ -1,12 +1,14 @@
 # Rasa NLU starter-pack
 
-Looked through the [Rasa NLU documentation](http://rasa.com/docs/nlu/) and ready to build your first chatbot? We have some resources to help you get started! This repository contains the foundations of you first custom bot, clone it to get started:
+Looked through the [Rasa NLU documentation](http://rasa.com/docs/nlu/) and ready to build your first intelligent assistant? We have some resources to help you get started! This repository contains the foundations of your first custom assistant.  You can improve this assistant by using a really cool training data file which you can find on the [Rasa Community Forum](https://forum.rasa.com/t/rasa-starter-pack/704). Go get it before getting started!  
+
+The initial version of this starter-pack lets you build a basic Rasa NLU model capable of understanding few simple intents. Clone this repo to get started:
 
 ```
 git clone https://github.com/RasaHQ/starter-pack-rasa-nlu.git
 ```
 
-After you clone the repository, you will have a directory called `starter-pack-rasa-nlu` on your local machine containing all the files of this repo. Let's call this directory our project directory.
+After you clone the repository, a directory called starter-pack-rasa-nlu will be downloaded to your local machine. It contains all the files of this repo and you should refer to this directory as your 'project directory'.
 
 
 ## Setup and installation
@@ -15,30 +17,30 @@ If you haven’t installed Rasa NLU yet, you can do it by navigating to the proj
 ```
 pip install -r requirements.txt
 ```
-This will install Rasa NLU and all the dependencies you need to successfully build your first bot.
+
+You also need to install a spaCy English language model. You can install it by running:
+
+```
+python -m spacy download en
+```
 
 
 ## What’s in this starter-pack?
 
-This starter-pack contains some training data and the main files which you can use as the basis of your first custom bot. It also resembles the usual structure of Rasa NLU project:
+This starter-pack contains some training data and the main files which you can use as the basis of your first custom assistant. It also has the usual file structure of the assistant built with Rasa Stack. This starter-pack consists of the following files:
 
-- **data/nlu_data.json** file contains training examples of five simple intents:
+- **data/nlu_data.json** file contains the training examples of five simple intents:
 	- greet
 	- goodbye
 	- thanks
 	- affirm
 	- name (examples of this intent contain an entity called name)
 	
-- **nlu_cofing.yml** file contains configuration of the pipeline:
+- **nlu_cofing.yml** file contains the configuration of the Rasa NLU training pipeline:
 ```text
 language: "en"
 
-pipeline:
-- name: "nlp_spacy"                   # loads the spacy language model
-- name: "tokenizer_spacy"             # splits the sentence into tokens
-- name: "ner_crf"                   # uses the pretrained spacy NER model
-- name: "intent_featurizer_spacy"     # transforms the sentence into a vector representation
-- name: "intent_classifier_sklearn"   # uses the vector representation to classify using SVM
+pipeline: spacy_sklearn
 ```	
 
 ## How to use it?
@@ -54,9 +56,8 @@ To get the results of the model, you can pass an input message by making a reque
 
 ## What's next?
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
-
+- Use the Rasa NLU [training data file](https://forum.rasa.com/t/rasa-starter-pack/704) which you downloaded previously from Rasa Community Forum. This dataset contains quite a few interesting intents which will enable your assistant to handle small talk. To use it, append the training examples to `data/nlu_data.md` file, retrain the NLU model and see how your assistant learns new skills.
 - Enrich the `data/nlu_data.md` file with the intents you would like your bot to understand. Retrain the NLU model using the command above and see you assistant improving with every run!
-- If you need more inspiration we have a really cool [training data file](https://forum.rasa.com/t/rasa-starter-pack/704) which you can find on Rasa Community Forum. This dataset contains quite a few interesting intents and you can use it to build a fun assistant capable of handling small talk. To use it, append the examples for this dataset to `data/nlu_data.md` file, retrain the NLU model and see how your bot learns new skills.
 
 
 Make sure to let us know how you are getting on and what have you built. Visit [Rasa Community Forum](https://forum.rasa.com) and share your experience.
