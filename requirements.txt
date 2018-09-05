@@ -18,5 +18,5 @@ pyyaml==3.12
 coloredlogs==9.0
 scikit-learn==0.19.1
 spacy==2.0.12
-sklearn_crfuite==0.3.6
+sklearn_crfsuite==0.3.6
 rasa_nlu~=0.13.0
