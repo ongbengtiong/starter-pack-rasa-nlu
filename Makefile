@@ -25,6 +25,4 @@ train-nlu:
 
 run-nlu:
 	python -m rasa_nlu.server --path ./models
-	
-cmdline:
-	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu
+
