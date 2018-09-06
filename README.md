@@ -2,7 +2,7 @@
 
 Looked through the [Rasa NLU documentation](http://rasa.com/docs/nlu/) and ready to build your first intelligent assistant? We have some resources to help you get started! This repository contains the foundations of your first custom assistant.
 
-**The training data is here in the [forum](https://forum.rasa.com/t/rasa-starter-pack/704)** 
+**The training data is here in the [forum](https://forum.rasa.com/t/grab-the-nlu-training-dataset-and-starter-packs/903)** 
 
 We would recommend downloading this before getting started, although the tutorial will also work with just the data in this repo. 
 
@@ -62,7 +62,7 @@ To get the results of the model, you can pass an input message by making a reque
 
 ## What's next?
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
-- **Use the Rasa NLU [training data file](https://forum.rasa.com/t/rasa-starter-pack/704) which you downloaded previously from Rasa Community Forum.** This dataset contains quite a few interesting intents which will enable your assistant to handle small talk. To use it, append the training examples to `data/nlu_data.md` file, retrain the NLU model and see how your assistant learns new skills.
+- **Use the Rasa NLU [training data file](https://forum.rasa.com/t/grab-the-nlu-training-dataset-and-starter-packs/903) which you downloaded previously from Rasa Community Forum.** This dataset contains quite a few interesting intents which will enable your assistant to handle small talk. To use it, append the training examples to `data/nlu_data.md` file, retrain the NLU model and see how your assistant learns new skills.
 - Enrich the `data/nlu_data.md` file with the intents you would like your bot to understand. Retrain the NLU model using the command above and see you assistant improving with every run!
 
 
