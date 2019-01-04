@@ -14,4 +14,4 @@ install:
   - python -m spacy download en_core_web_md
   - python -m spacy link en_core_web_md en
 script:
-  - py.test test_nlu.py
+  - python -m pytest tests
