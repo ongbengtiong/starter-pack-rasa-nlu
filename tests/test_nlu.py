@@ -7,9 +7,8 @@ def test_train_and_persist():
     training_data = load_data("data/nlu_data.md")
     trainer = Trainer(config.load("nlu_config.yml"))
     interpreter = trainer.train(training_data)
-    test_model_directory = trainer.persist("./models/nlu", fixed_model_name="test")
-
+    test_interpreter_dir = trainer.persist("./tests/models", project_name="nlu")
     parsing = interpreter.parse('hello')
 
     assert parsing['intent']['name'] == 'greet'
-    assert test_model_directory
+    assert test_interpreter_dir
