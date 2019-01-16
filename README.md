@@ -50,6 +50,7 @@ pipeline: spacy_sklearn
 ```	
 
 ## How to use it?
+- NOTE: If running on Windows, you will either have to [install make](http://gnuwin32.sourceforge.net/packages/make.htm) or copy the following commands from the [Makefile](https://github.com/RasaHQ/starter-pack-rasa-nlu/blob/master/Makefile)
 Even though this starter-pack have only five and quite generic intents, you can train the Rasa NLU model by running:  
 ```make train-nlu```  
 This will train the NLU model and store it inside the `/models/current/nlu` folder of your project directory.
