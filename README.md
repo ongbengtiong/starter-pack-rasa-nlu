@@ -42,16 +42,17 @@ This starter-pack contains some training data and the main files which you can u
 	- affirm
 	- name (examples of this intent contain an entity called name)
 	
-- **nlu_cofing.yml** file contains the configuration of the Rasa NLU training pipeline:
-```text
-language: "en"
-
-pipeline: spacy_sklearn
-```	
+- **nlu_config.yml** file contains the configuration of the Rasa NLU training pipeline:
+```yaml
+	language: "en"
+	
+	pipeline: spacy_sklearn
+```
 
 ## How to use it?
-- NOTE: If running on Windows, you will either have to [install make](http://gnuwin32.sourceforge.net/packages/make.htm) or copy the following commands from the [Makefile](https://github.com/RasaHQ/starter-pack-rasa-nlu/blob/master/Makefile)
-Even though this starter-pack have only five and quite generic intents, you can train the Rasa NLU model by running:  
+- **NOTE:** If running on Windows, you will either have to [install make](http://gnuwin32.sourceforge.net/packages/make.htm) or copy the following commands from the [Makefile](https://github.com/RasaHQ/starter-pack-rasa-nlu/blob/master/Makefile)
+
+Even though this starter-pack has only five quite generic intents, you can train the Rasa NLU model by running:  
 ```make train-nlu```  
 This will train the NLU model and store it inside the `/models/current/nlu` folder of your project directory.
 
@@ -59,7 +60,7 @@ To test the model, you can run it as a server using the following command which 
 ```make run-nlu```  
 
 To get the results of the model, you can pass an input message by making a request:  
-```curl XPOST localhost:5000/parse -d '{"query":"Hello", "project": "current"}'```  
+```curl -X POST localhost:5000/parse -d '{"query":"Hello", "project": "current"}'```  
 
 ## What's next?
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
