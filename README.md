@@ -44,9 +44,9 @@ This starter-pack contains some training data and the main files which you can u
 	
 - **nlu_config.yml** file contains the configuration of the Rasa NLU training pipeline:
 ```yaml
-	language: "en"
-	
-	pipeline: spacy_sklearn
+language: "en"
+
+pipeline: spacy_sklearn
 ```
 
 ## How to use it?
