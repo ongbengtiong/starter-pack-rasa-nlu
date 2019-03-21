@@ -7,6 +7,10 @@ help:
 	@echo "        Remove python artifacts and build artifacts."
 	@echo "    train-nlu"
 	@echo "        Trains a new nlu model using the projects Rasa NLU config"
+	@echo "    train-nlu-smalltalk"
+	@echo "        Trains a new smalltalk.md model using the projects Rasa NLU config"	
+	@echo "    train-nlu-meeting_room"
+	@echo "        Trains a new meeting_room.md model using the projects Rasa NLU config"	
 	@echo "    run-nlu"
 	@echo "        Runs a trained nlu model as a server"
 
@@ -22,7 +26,13 @@ clean:
 
 train-nlu:
 	python -m rasa_nlu.train -c nlu_config.yml --data data/nlu_data.md -o models --project current --verbose
+	
+train-nlu-smalltalk:
+	python -m rasa_nlu.train -c nlu_config.yml --data data/smalltalk.md -o models --project current --verbose
 
+train-nlu-meeting_room:
+	python -m rasa_nlu.train -c nlu_config.yml --data data/meeting_room.md -o models --project current --verbose
+	
 run-nlu:
 	python -m rasa_nlu.server --path ./models
 

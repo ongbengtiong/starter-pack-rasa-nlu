@@ -1,0 +1,867 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "23 Jul",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find me a room 23 Jul"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "1 Feb",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find me a room for 1 Feb"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "3 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "find me a room for 3 minutes"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "20 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "find me a room for 20 minutes"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "2 hours",
+            "entity": "duration"
+          }
+        ],
+        "text": "find me a room for 2 hours"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "20 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "find me a room that is free for 20 minutes"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "2 hours",
+            "entity": "duration"
+          }
+        ],
+        "text": "find me a free room for 2 hours"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find me a free room in SP12 3 seats"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "MH3",
+            "entity": "building"
+          }
+        ],
+        "text": "find me a free room in MH3"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "10 am",
+            "entity": "startTime"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "i want a room from 10 am, for 3 people"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "SP12",
+            "entity": "building"
+          }
+        ],
+        "text": "find me a free room in SP12"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find me a free room in SP12 with 3 seats"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "1 pm",
+            "entity": "startTime"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "tomorrow",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find me a room at 1 pm tomorrow"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "23 Feb",
+            "entity": "startDate"
+          },
+          {
+            "start": 31,
+            "end": 32,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find a meeting room 23 Feb for 3 person"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "10 pm",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find me a meeting room 10 pm"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "23 Apr",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find me a room on 23 Apr ."
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "2 Apr",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find me a room on 2 Apr ."
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "23 Jul",
+            "entity": "startDate"
+          },
+          {
+            "start": 25,
+            "end": 26,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "i need a room 23 Jul for 3 persons"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "today",
+            "entity": "startDate"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "10 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "i need a room today at 10 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "today",
+            "entity": "startDate"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "10 am",
+            "entity": "startTime"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "SP12",
+            "entity": "building"
+          }
+        ],
+        "text": "i need a room today at 10 am in SP12"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 21,
+            "end": 22,
+            "value": "3",
+            "entity": "capacity"
+          },
+          {
+            "start": 26,
+            "end": 27,
+            "value": "3",
+            "entity": "capacity"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "today",
+            "entity": "startDate"
+          }
+        ],
+        "text": "i need a room with a 3 of 3 today"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "10 am",
+            "entity": "startTime"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "23 Feb",
+            "entity": "startDate"
+          }
+        ],
+        "text": "i need a room from 10 am 23 Feb"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "23 Oct",
+            "entity": "startDate"
+          }
+        ],
+        "text": "i need a room from 23 Oct"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "23 Feb",
+            "entity": "startDate"
+          }
+        ],
+        "text": "i need a room on 23 Feb"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "SP14",
+            "entity": "building"
+          }
+        ],
+        "text": "i need a room in SP14"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 33,
+            "end": 34,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "i need a room with a capacity of 3"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "23 Dec",
+            "entity": "startDate"
+          }
+        ],
+        "text": "is there a free room at 23 Dec"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "1",
+            "entity": "capacity"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "23 Aug",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find a room for 1 from 23 Aug"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "2",
+            "entity": "capacity"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "10 pm",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find a room for 2 starting from 10 pm"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "3",
+            "entity": "capacity"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "1 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find a room for 3 from 1 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "10",
+            "entity": "capacity"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "23 Jun",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find a room with 10 seats on 23 Jun"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "20",
+            "entity": "capacity"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "10 am",
+            "entity": "startTime"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "10 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find a room with 20 seats 10 am 10 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "10 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find free room starting from 10 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "23 Feb",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find free room on 23 Feb"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 14,
+            "end": 15,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find room for 3"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "3",
+            "entity": "capacity"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "23 Dec",
+            "entity": "startDate"
+          },
+          {
+            "start": 55,
+            "end": 60,
+            "value": "10 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find a room for 3 persons in SP12 starting from 23 Dec 10 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "tomorrow",
+            "entity": "startDate"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "10 am",
+            "entity": "startTime"
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find a room tomorrow in SP12 starting from 10 am for 3 people"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "23 Feb",
+            "entity": "startDate"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 55,
+            "end": 60,
+            "value": "10 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "can you find me a room on 23 Feb in SP12 starting from 10 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "23 Mar",
+            "entity": "startDate"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "2 am",
+            "entity": "startTime"
+          },
+          {
+            "start": 54,
+            "end": 55,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find a room on 23 Mar in SP12 starting from 2 am with 3 seats"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "23 Sep",
+            "entity": "startDate"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "2 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find a room on 23 Sep in SP12 starting from 2 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "23 Dec",
+            "entity": "startDate"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "SP12",
+            "entity": "building"
+          }
+        ],
+        "text": "find a room on 23 Dec in SP12"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "23 Mar",
+            "entity": "startDate"
+          }
+        ],
+        "text": "find a room on 23 Mar"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "SP12",
+            "entity": "building"
+          }
+        ],
+        "text": "find a room in SP12"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "SP12",
+            "entity": "building"
+          }
+        ],
+        "text": "is there a free room in SP12"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "here",
+            "entity": "building"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "2 hours",
+            "entity": "duration"
+          },
+          {
+            "start": 39,
+            "end": 41,
+            "value": "10",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find a free room here for 2 hours with 10 seats"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "here",
+            "entity": "building"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "today",
+            "entity": "startDate"
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "value": "3",
+            "entity": "capacity"
+          },
+          {
+            "start": 40,
+            "end": 41,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find a room here today with 3 seats for 3 seats"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "23 Feb",
+            "entity": "startDate"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "3 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "is there a free room on 23 Feb from 3 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "SP12",
+            "entity": "building"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "23 Dec",
+            "entity": "startDate"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "4 am",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find a free room in SP12 on 23 Dec at 4 am"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "23 Sep",
+            "entity": "startDate"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "4 pm",
+            "entity": "startTime"
+          }
+        ],
+        "text": "find me a free room on 23 Sep 4 pm"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 20,
+            "end": 21,
+            "value": "3",
+            "entity": "capacity"
+          }
+        ],
+        "text": "find me a room with 3 seats"
+      },
+      {
+        "intent": "find_room",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "SP20",
+            "entity": "building"
+          }
+        ],
+        "text": "find me a room in SP20"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
