@@ -61,7 +61,8 @@ To test the model, you can run it as a server using the following command which 
 
 To get the results of the model, you can pass an input message by making a request:  
 ```curl -X POST localhost:5000/parse -d '{"query":"Hello", "project": "current"}'```  
-
+For Windows:
+```curl -X POST localhost:5000/parse -d "{\"query\":\"Hello\", \"project\": \"current\"}"```  
 ## What's next?
 Five intents and one entity are definitely not enough to build an awesome assistant so here are some ideas for what you can do to take this project to the next level:
 - **Use the Rasa NLU [training data file](https://forum.rasa.com/t/grab-the-nlu-training-dataset-and-starter-packs/903) which you downloaded previously from Rasa Community Forum.** This dataset contains quite a few interesting intents which will enable your assistant to handle small talk. To use it, append the training examples to `data/nlu_data.md` file, retrain the NLU model and see how your assistant learns new skills.
