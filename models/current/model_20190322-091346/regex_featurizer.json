@@ -1,0 +1,6 @@
+[
+    {
+        "name": "building",
+        "pattern": "(?i)(\\bSP12\\b|\\bSP14\\b|\\bSP20\\b|\\bKR\\b|\\bMH3\\b|\\bMH4\\b|\\bMH6\\b|\\bMH11\\b)"
+    }
+]

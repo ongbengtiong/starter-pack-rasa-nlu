@@ -18,9 +18,9 @@ pipeline:
   dimensions: ["time", "number", "amount-of-money", "distance"]
   # allows you to configure the locale, by default the language is
   # used
-  locale: "en_UK"
+  locale: "en_GB"
   # if not set the default timezone of Duckling is going to be used
   # needed to calculate dates from relative expressions like "tomorrow"
-  timezone: "Europe/Berlin"
+  timezone: "Asia/Singapore"
   
   
